@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Managment</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="project.css" />
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <div id="welcome">Welcome to RDSS Project Lot-16</div>
+            <div class="header1">
+                <ul class="ulcontainer">
+                    <li class="listcontainer">
+                        <span class="listcontainer material-symbols-outlined">
+                            home
+                        </span>
+                    </li>
+                    <li class="listcontainer">
+                        <button><a href="#coffe">Loing here</a></button>
+                    </li>
+                    <li class="listcontainer">
+                        <input type="text" class="headerinput" placeholder="Search" /><input type="button"
+                            value="seach" />
+                    </li>
+                </ul>
+            </div>
+            <div class="header2">Overview</div>
+            <div class="navbar">
+                <a href="#home">Home</a>
+                <a href="#news">News</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Dropdown
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </div>
+        </nav>
+        <main class="mainclass">
+            <aside class="asidebar">
+                <ol class="asideitemscontainer">
+                    <li class="asideitems">Material status</li>
+                    <li class="asideitems">Sampling Staus</li>
+                    <li class="asideitems">Bill Status</li>
+                    <li class="asideitems">Charging Permission</li>
+                </ol>
+            </aside>
+            <aside class="containerdashboard">
+                <div class="dashboardheading">Dashboard</div>
+                <div class="dashboard">Search status for Division</div>
+                <table class="tablecontainer">
+                    <tr class="eachrow">
+                        <td class="tabledataleft"><label for="dn">Division:-</label></td>
+                        <td class="tabledataright">
+                            <select name="dn" id="dn">
+                                <option value="" selected="selected" hidden="hidden">
+                                    Choose here
+                                </option>
+                                <option value="EE JAORA O&M">EE JAORA O&M</option>
+                                <option value="EE ALOTE O&M">EE ALOTE O&M</option>
+                                <option value="EE RATLAM O&M">EE RATLAM O&M</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr class="eachrow">
+                        <td class="tabledataleft">DC/ZONE:-</td>
+                        <td class="tabledataright">alote</td>
+                    </tr>
+                    <tr class="eachrow">
+                        <td class="tabledataleft">Scope of Work:-</td>
+                        <td class="tabledataright"></td>
+                    </tr>
+                </table>
+            </aside>
+        </main>
+    </div>
+
+    <dl>
+        <dt id="coffe">Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <label for="cars">Choose a car:</label>
+
+    <select id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+</body>
+
+</html>
