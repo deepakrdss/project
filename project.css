@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Parkinsans", sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/christmas-scribble-pattern-background-vector_53876-136505.jpg?ga=GA1.1.1571293153.1733121505&semt=ais_hybrid);
+    background-repeat: repeat;
+}
+
+.nav {
+    padding: 5px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.nav:hover {
+    color: red;
+    background-color: blue;
+}
+
+.header1 {
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.ulcontainer {
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.listcontainer {
+    width: 100%;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 2em;
+    vertical-align: middle;
+    background-color: aqua;
+}
+
+.header2 {
+    border: 1px solid red;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: -2px 5px 5px;
+}
+
+.mainclass {
+    margin: 20px;
+    border: 3px dotted;
+    height: 100vh;
+    display: flex;
+    padding: 10px;
+}
+
+.asidebar {
+    width: 30%;
+    border: 1px solid;
+    padding: 30px;
+    margin: 1px;
+}
+
+.asideitems {
+    cursor: pointer;
+    margin: 50px 0;
+    transition: .3s ease;
+}
+
+.asideitems:hover {
+    color: brown;
+    background-color: gold;
+    font-size: 18px;
+}
+
+.containerdashboard {
+    width: 70%;
+    border: 2px dashed green;
+    text-align: center;
+}
+
+.dashboardheading {
+    font-weight: 800;
+    border: 1px solid;
+    background-color: blueviolet;
+    height: 40px;
+}
+
+.tablecontainer {
+    background-color: hsl(0, 100%, 64%);
+    width: 100%;
+    padding: 80px 10px;
+}
+
+.eachrow {
+    color: hsl(0, 0%, 0%);
+    background-color: rgb(214, 175, 126);
+}
+
+.tabledataleft {
+    background-image: linear-gradient(to right, red, yellow);
+    width: 40%;
+    height: 50px;
+    text-align: left;
+    font-size: larger;
+    transition: .8s ease;
+    border-radius: 10px;
+
+}
+
+.tabledataright {
+    border-radius: 20px;
+}
+
+.tabledataleft:hover {
+    background-image: linear-gradient(to left, red, yellow);
+    color: aliceblue;
+    border: 2px solid black;
+}
+
+#dn {
+    height: 40px;
+    width: 80%;
+    border: none;
+    background-color: transparent;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+option {
+    padding: 20px;
+    color: rgb(60, 208, 34);
+    margin: 10px;
+    text-align: center;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
